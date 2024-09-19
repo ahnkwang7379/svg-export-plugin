@@ -1,7 +1,7 @@
 const config = {
     repository: {
       name: 'svg-export-plugin',
-      iconExtractPath: 'libs/common/components/Icon',
+      iconExtractPath: 'libs/test',
       baseBranchName: 'master',
       owner: 'ahnkwang7379',
     },
