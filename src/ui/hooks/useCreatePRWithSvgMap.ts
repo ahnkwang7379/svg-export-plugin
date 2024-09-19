@@ -32,7 +32,7 @@ export function useCreatePRWithSvgMap({
         tree: [
           {
             sha: blob.sha,
-            path: 'icons.json',
+            path: `${config.repository.iconExtractPath}/icons.json`,
             type: 'blob',
             mode: '100644',
           },
