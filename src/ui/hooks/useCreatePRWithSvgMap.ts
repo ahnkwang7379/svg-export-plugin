@@ -39,7 +39,7 @@ export function useCreatePRWithSvgMap({
         ],
       })
       const commit = await githubAPI.createGitCommit({
-        message: 'feat(bezier-icons): add icons.json file',
+        message: '[feat] add icons.json file',
         tree: tree.sha,
         parents: [baseBranchSha],
         author: {
@@ -72,10 +72,10 @@ export function useCreatePRWithSvgMap({
         base: config.repository.baseBranchName,
       })
 
-      await githubAPI.addLabels({
-        issueNumber: pr.number,
-        labels: config.pr.labels,
-      })
+      // await githubAPI.addLabels({
+      //   issueNumber: pr.number,
+      //   labels: config.pr.labels,
+      // })
 
       return pr
     },

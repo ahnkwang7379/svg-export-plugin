@@ -1,21 +1,20 @@
 const config = {
     repository: {
-      name: 'svg-sprite',
+      name: 'svg-export-plugin',
       iconExtractPath: 'libs/common/components/Icon',
-      baseBranchName: 'main',
-      owner: 'KwangEun-Ahn',
+      baseBranchName: 'master',
+      owner: 'ahnkwang7379',
     },
     commit: {
       message: '[feat] update icons',
       author: {
-        name: 'KwangEun-Ahn',
+        name: 'ahnkwang7379',
         email: 'ahnkwang7379@gmail.com',
       },
     },
     pr: {
       title: '[feat] update icons',
       body: 'pr Test',
-      labels: ['feat:icon'],
     },
   };
   

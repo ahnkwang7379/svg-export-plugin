@@ -12,7 +12,6 @@ const root = createRoot(container)
 
 root.render(
     <MemoryRouter>
-      <div>..??</div>
       <Routes>
         <Route
           index
